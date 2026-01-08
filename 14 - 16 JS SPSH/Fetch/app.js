@@ -1,6 +1,6 @@
 // fetch() — server yoki fayldan ma'lumot olish uchun ishlatiladi (HTTP so‘rov)
 
-// https://68fb5c6694ec96066025c8da.mockapi.io/products url ga so‘rov yuboryapmiz
+//  fetch('https://68fb5c6694ec96066025c8da.mockapi.io/products')  url ga so‘rov yuboryapmiz
 fetch("https://myfakeapi.com/api/cars")
 
     // Serverdan kelgan javobni JS object formatga o‘tkazamiz

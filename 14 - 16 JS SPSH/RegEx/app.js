@@ -36,9 +36,8 @@ btn.addEventListener('click', () => {
 
     notif.style.display = 'none';
 
-    setTimeout(() => {
+    const notif2 = setTimeout(() => {
         notif.style.display = 'block';
-
         if (emailReg.test(emailVal) && passReg.test(passVal)) {
             notif.style.background = 'green';
             notif.textContent = "To'g'ri kiritding!";

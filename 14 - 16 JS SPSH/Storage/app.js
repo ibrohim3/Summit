@@ -27,13 +27,13 @@ saveBtn.addEventListener("click", () => {
 
 // O‘qish (page load)
 window.addEventListener("load", () => {
-    const username = localStorage.getItem("username");
-    const theme = localStorage.getItem("theme");
+    const saqlanganIsm = localStorage.getItem("username");
+    const saqlanganMavzu = localStorage.getItem("theme");
 
-    if (username) usernameInput.value = username;
-    if (theme) {
-        themeSelect.value = theme;
-        applyTheme(theme);
+    if (saqlanganIsm) usernameInput.value = saqlanganIsm;
+    if (saqlanganMavzu) {
+        themeSelect.value = saqlanganMavzu;
+        applyTheme(saqlanganMavzu);
     }
 });
 

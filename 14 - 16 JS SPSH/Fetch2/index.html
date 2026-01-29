@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Books App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📚 My Books</h1>
+    <button id="openForm">+ Add Book</button>
+  </header>
+
+  <div class="notification"></div>
+
+  <section class="product-list"></section>
+
+  <!-- CREATE FORM -->
+  <div class="product-create">
+    <form class="form">
+      <h2>Add new book</h2>
+
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="author" placeholder="Author" />
+      <input type="number" id="year" placeholder="Year" />
+      <input type="text" id="image" placeholder="Image URL" />
+
+      <button type="button" class="create-btn">Create</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
